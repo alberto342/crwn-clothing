@@ -5,8 +5,8 @@ import './directory.style.scss'
 
 
 class Directory extends React.Component {
-    constructor() {
-        super();
+    constructor(props, context) {
+        super(props, context);
 
         this.state = {
             sections: [
