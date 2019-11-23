@@ -9,7 +9,8 @@
     "react-router-dom": "latest",
     "redux": "latest",
     "redux-logger": "latest",
-    "react-redux": "latest"
+    "react-redux": "latest",
+    "reselect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
