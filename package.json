@@ -10,7 +10,9 @@
     "redux": "latest",
     "redux-logger": "latest",
     "react-redux": "latest",
-    "reselect": "latest"
+    "reselect": "latest",
+    "firebase": "latest",
+    "redux-persist": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
