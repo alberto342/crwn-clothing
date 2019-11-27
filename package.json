@@ -16,10 +16,7 @@
     "redux-persist": "5.10.0",
     "reselect": "4.0.0"
   },
-  
-  "scripts": {
-  "start": "node server.js"
-},
+ 
   
   "devDependencies": {
     "react-scripts": "3.0.0"
