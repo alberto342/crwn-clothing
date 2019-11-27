@@ -26,23 +26,21 @@
     background-color: #4285f4;
     color: white;
 
-    &:hoven {
+    &:hover {
       background-color: #357ae8;
       border: none;
     }
   }
 
-  &.invented {
+  &.inverted {
     background-color: white;
     color: black;
     border: 1px solid black;
 
-    &.hover {
+    &:hover {
       background-color: black;
       color: white;
       border: none;
     }
-
   }
-
 }
