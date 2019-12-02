@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecb8f3e0-e0f0-48b1-b618-f1b3c48e2460" name="Default Changelist" comment="implement code that pulls in our shop data from firestore and stores it into the shop reducer from our shop page. Also included theSpinner HOC">
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/userSagas.js" afterDir="false" />
+    <list default="true" id="ecb8f3e0-e0f0-48b1-b618-f1b3c48e2460" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,50 +24,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.component.jsx">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+              <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/user/userSagas.js">
+        <entry file="file://$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/user/user.types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/user/user.actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+            <state relative-caret-position="15">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/redux/user/user.reducer.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/collection/collection.component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" />
         <option value="$PROJECT_DIR$/src/pages/homepage/HomePage.component.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" />
         <option value="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" />
         <option value="$PROJECT_DIR$/src/components/stripe-button/stripe-button.component.jsx" />
         <option value="$PROJECT_DIR$/src/pages/homepage/homepage.styles.jsx" />
@@ -141,16 +118,11 @@
         <option value="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx" />
         <option value="$PROJECT_DIR$/src/pages/collection/collection.container.jsx" />
         <option value="$PROJECT_DIR$/src/redux/shop/shop.saga.js" />
-        <option value="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" />
         <option value="$PROJECT_DIR$/src/redux/shop/shop.actions.js" />
         <option value="$PROJECT_DIR$/src/redux/store.js" />
         <option value="$PROJECT_DIR$/src/redux/user/user.selectors.js" />
-        <option value="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" />
         <option value="$PROJECT_DIR$/src/redux/user/user.sagas.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/firebase/firebase.utils.js" />
-        <option value="$PROJECT_DIR$/src/redux/user/user.reducer.js" />
-        <option value="$PROJECT_DIR$/src/components/header/header.component.jsx" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart.types.js" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart.actions.js" />
         <option value="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" />
@@ -160,15 +132,21 @@
         <option value="$PROJECT_DIR$/src/redux/user/user.types.js" />
         <option value="$PROJECT_DIR$/src/redux/user/user.actions.js" />
         <option value="$PROJECT_DIR$/src/redux/user/userSagas.js" />
+        <option value="$PROJECT_DIR$/src/redux/user/user.reducer.js" />
+        <option value="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" />
         <option value="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/header/header.component.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-79" />
-    <option name="y" value="369" />
+    <option name="x" value="258" />
+    <option name="y" value="512" />
     <option name="width" value="1259" />
-    <option name="height" value="961" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,13 +180,6 @@
               <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="sign-in" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,41 +206,14 @@
               <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
               <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="sign-in-and-sign-up" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
               <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,7 +314,9 @@
       <workItem from="1575009224608" duration="10593000" />
       <workItem from="1575050308301" duration="2818000" />
       <workItem from="1575093937727" duration="8322000" />
-      <workItem from="1575110490609" duration="7639000" />
+      <workItem from="1575110490609" duration="8725000" />
+      <workItem from="1575181530052" duration="2658000" />
+      <workItem from="1575268361317" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="update our menu-items to navigate withRouter">
       <created>1573897372021</created>
@@ -498,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575017272640</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="created user and cart sagas for sign in, sign out and sign in with google">
+      <created>1575120198074</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575120198074</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142987000" />
+    <option name="totallyTimeSpent" value="147541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,7 +467,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="276" width="1259" height="961" extended-state="0" />
+    <frame x="258" y="512" width="1259" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
@@ -523,7 +476,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30609897" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30609897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -559,7 +512,8 @@
     <MESSAGE value="move our directory and shop data into its own reducer, created respective selectors and updated corresponding component with new redux flow for directory/shop" />
     <MESSAGE value="updating stripe integration and updating our favicon and title" />
     <MESSAGE value="implement code that pulls in our shop data from firestore and stores it into the shop reducer from our shop page. Also included theSpinner HOC" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement code that pulls in our shop data from firestore and stores it into the shop reducer from our shop page. Also included theSpinner HOC" />
+    <MESSAGE value="created user and cart sagas for sign in, sign out and sign in with google" />
+    <option name="LAST_COMMIT_MESSAGE" value="created user and cart sagas for sign in, sign out and sign in with google" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/redux/directory/directory.reducer.js">
@@ -722,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/collection/collection.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -800,60 +747,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/user/user.selectors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/firebase/firebase.utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,6 +811,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/user/user.reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/user/user.actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -935,20 +842,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/header/header.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="261">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/user/user.reducer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="825">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="66" lean-forward="true" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firebase/firebase.utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/collection/collection.component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
